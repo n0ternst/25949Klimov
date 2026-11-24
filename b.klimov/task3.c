@@ -49,3 +49,24 @@ int main(int argc, char *argv[])
 
     return 0;
 }
+
+/*
+gcc -std=gnu99 -Wall -Wextra task3.c -o task3
+echo "Top secret data" > secret.txt
+chmod 600 secret.txt
+
+chmod 711 ~
+chmod 755 ~/b.klimov
+
+ls -l task3 secret.txt
+./task3
+
+chmod 755 task3
+
+/полный/путь/к/lab3/task3 /полный/путь/к/lab3/secret.txt
+
+chmod u+s task3
+ls -l task3   # убедитесь, что в правах появилось -rwsr-xr-x
+
+/полный/путь/к/lab3/task3 /полный/путь/к/lab3/secret.txt
+*/
