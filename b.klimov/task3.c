@@ -53,20 +53,16 @@ int main(int argc, char *argv[])
 /*
 gcc -std=gnu99 -Wall -Wextra task3.c -o task3
 echo "Top secret data" > secret.txt
-chmod 600 secret.txt
 
-chmod 711 ~
-chmod 755 ~/b.klimov
+/home/students/25900/b.klimov1/25949/b.klimov/task3 /home/students/25900/b.klimov1/25949/b.klimov/secret.txt
 
-ls -l task3 secret.txt
-./task3
+chmod 755 /home/students/25900/b.klimov1/25949/b.klimov/task3
 
-chmod 755 task3
+попробовать открыть
 
-/полный/путь/к/lab3/task3 /полный/путь/к/lab3/secret.txt
+chmod u+s /home/students/25900/b.klimov1/25949/b.klimov/task3
+ls -l /home/students/25900/b.klimov1/25949/b.klimov/task3
 
-chmod u+s task3
-ls -l task3   # убедитесь, что в правах появилось -rwsr-xr-x
+/home/students/25900/b.klimov1/25949/b.klimov/task3 /home/students/25900/b.klimov1/25949/b.klimov/secret.txt
 
-/полный/путь/к/lab3/task3 /полный/путь/к/lab3/secret.txt
 */
